@@ -1,0 +1,11 @@
+form {
+  width: 300px;
+}
+input {
+  width: 100%;
+}
+.search-box {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+}
