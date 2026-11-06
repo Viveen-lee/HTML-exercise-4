@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form</title>
+  <title>Application form</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>A form</h1>
+  <div class="container">
+  <h1><i>Application form</i></h1>
   <form action="enter provided URL" method="post">
     <label>First Name:</label>
     <input type="text" name="firstname" placeholder="enter first name" required>
@@ -19,15 +20,17 @@
       <option value="female">Female</option>
     </select><br>
     <label>Date of Birth:</label>
-    <input type="text" name="date of birth" placeholder="enter date of birth" required>
+    <input type="date" name="date of birth" placeholder="yyyy/mm/dd" required>
     <label>Email:</label>
     <input type="text" name="email" placeholder="enter email" required>
-    <label>Search:</label>
-    <form method="get" action="enter provided URL">
+    <label>Submit</label>
+    <button type="submit" name="submit">Submit</button>
+  </form>
+  <hr>
+  <h2><i>Search</i></h2>
+  <form method="get" action="enter provided URL">
     <label>Search:</label>
     <input type="text" name="search" placeholder="enter search term">
-    <button type="reset">reset</button>
-  </form>
-    <button type="submit" name="submit">Submit</button>
+    <button type="search">Search</button>
   </form>
 </body>
