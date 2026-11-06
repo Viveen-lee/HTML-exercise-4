@@ -6,11 +6,12 @@ input {
 }
 
 body {
-  font-family: Architects Daughter, sans-serif;
-  background-color: #f3aeff
+  font-family:
+    Architects Daughter,
+    sans-serif;
+  background-color: #f3aeff;
 }
-input[type="text"]
-select{
+input[type="text"] select {
   border: 2px solid #ba0b0b;
   padding: 7px;
   border-radius: 4px;
@@ -21,5 +22,5 @@ select{
   padding: 70px;
   background-color: #fba3d8;
   border-radius: 10px;
-    box-shadow: 10px 10px 5px #1e171b;
+  box-shadow: 10px 10px 5px #1e171b;
 }
